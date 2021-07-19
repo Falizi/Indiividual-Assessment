@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<title>Falizi</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<div class="w3-sidebar w3-bar-block w3-dark-grey w3-animate-left" style="display:none" id="mySidebar">
+  <h3 class="w3-bar-item">Menu</h3>
+  <button class="w3-bar-item w3-button w3-large"
+  onclick="w3_close()">Close &times;</button>
+  <a href="index.html" class="w3-bar-item w3-button">Home Page</a>
+  <a href="biodata.html" class="w3-bar-item w3-button">Biodata</a>
+  <a href="education.html" class="w3-bar-item w3-button">Education</a>
+  <a href="experience.html" class="w3-bar-item w3-button">Experience</a>
+  <div class="w3-dropdown-hover">
+    <button class="w3-button">Gallery
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="w3-dropdown-content w3-bar-block">
+      <a href="myphoto.html" class="w3-bar-item w3-button">My Photo</a>
+      <a href="familyphoto.html" class="w3-bar-item w3-button">Famliy Photo</a>
+    </div>
+  </div> 
+  <a href="contact.html" class="w3-bar-item w3-button">Contact</a>
+</div>
+
+<div>
+  <button class="w3-button w3-white w3-xlarge" onclick="w3_open()">&#9776;</button>
+  <header class="w3-container w3-teal" align="center">
+    <h1>My Education</h1>
+  </header>
+</div>
+
+<p></p>
+
+<div>
+  <div align="center">
+  <img src="image/uni2.jpg" class="w3-round-xlarge" alt="" style="width:50%">
+  <h2><b>2020</b></h2>
+  <h4>Universiti Teknologi Mara Campus Kota Bharu</h4>
+  <h4>Bachelor in Degree (Hons) Marketing</h4>
+  <h4>-GPA 3.35</h4>
+</div>
+
+<div>
+  <div align="center">
+  <img src="image/uni1.jpg" class="w3-round-xlarge" alt="" style="width:50%">
+  <h2><b>2017</b></h2>
+  <h4>Universiti Teknologi Mara Campus Machang</h4>
+  <h4>Diploma in Banking Studies</h4>
+  <h4>-CGPA 3.45</h4>
+</div>
+
+<div>
+  <div align="center">
+  <img src="image/maya.jpg" class="w3-round-large" alt="" style="width:30%">
+  <h2><b>2012</b></h2>
+  <h4>Maahad Yaakubiah Nipah</h4>
+  <h4>Sijil Pelajaran Malaysia</h4>
+  <h4>(3A 6B 1D 1E)</h4>
+</div>
+
+<div>
+  <div align="center">
+  <img src="image/sk.jpg" class="w3-round-large" alt="" style="width:20%">
+  <h2><b>2006</b></h2>
+  <h4>Sekolah Kebangsaan Badak</h4>
+  <h4>Ujian Penilaian Sekolah Rendah</h4>
+  <h4>(4A 1B)</h4>
+</div>
+
+<div class="w3-container w3-grey">
+  <h6><b>Statement of Ownership</b></h6>
+  <h6>You may not copy or use the content to without with my permission.</h6>
+  <h6>The website source is from my own experience, 2021 All Rights Reserved</h6>
+</div>
+  
+<script>
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+}
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</div>
+</html>
